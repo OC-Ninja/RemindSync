@@ -1,0 +1,26 @@
+{
+  "name": "remindsync-engine",
+  "version": "1.0.0",
+  "description": "WhatsApp Billing Engine for Prapulla Polymers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "monitor": "pm2 monitor"
+  },
+  "keywords": [
+    "whatsapp",
+    "n8n",
+    "automation"
+  ],
+  "author": "Himanshu P Dev",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^5.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0",
+    "pm2": "^5.4.0",
+    "n8n": "^1.70.0"
+  }
+}
